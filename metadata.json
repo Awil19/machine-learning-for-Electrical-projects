@@ -1,0 +1,28 @@
+{
+    "forecasting_features": [
+        "DC_POWER",
+        "AC_POWER",
+        "AMBIENT_TEMPERATURE",
+        "MODULE_TEMPERATURE",
+        "IRRADIATION",
+        "HOUR_SIN",
+        "HOUR_COS",
+        "TIME_SIN",
+        "TIME_COS",
+        "PLANT_2"
+    ],
+    "anomaly_features": [
+        "DC_POWER",
+        "AC_POWER",
+        "IRRADIATION",
+        "AMBIENT_TEMPERATURE",
+        "MODULE_TEMPERATURE"
+    ],
+    "forecast_target": "TARGET_AC_POWER",
+    "sequence_length": 4,
+    "forecast_horizon_minutes": 15,
+    "plants": [
+        "Plant 1",
+        "Plant 2"
+    ]
+}
